@@ -2,8 +2,10 @@ import React from 'react'
 
 const LogoSearch = () => {
   return (
-    <div>LogoSearch</div>
-  )
+    <div className="LogoSearch">
+        logoSearch
+    </div>  
+    )
 }
 
 export default LogoSearch
