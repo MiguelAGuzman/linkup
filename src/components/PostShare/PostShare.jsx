@@ -1,5 +1,6 @@
 import React from 'react'
 import ProfileImage from '../../img/profileImg.jpg'
+import './PostShare.css'
 
 const PostShare = () => {
   return (
