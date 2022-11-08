@@ -3,8 +3,9 @@ import './PostSide.css'
 
 const PostSide = () => {
   return (
-    <div>PostSide</div>
-  )
+    <div className="PostSide">
+      
+    </div>  )
 }
 
 export default PostSide
