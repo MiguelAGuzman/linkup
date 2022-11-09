@@ -55,6 +55,12 @@ const PostShare = () => {
                     />
                 </div>
             </div>
+            {image && (
+                <div className="previewImage">
+                    
+                </div>
+            )}
+            
         </div>
     </div>
   )
