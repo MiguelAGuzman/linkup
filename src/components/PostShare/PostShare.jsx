@@ -14,19 +14,19 @@ const PostShare = () => {
         <div>
             <input type="text" placeholder="What's Happening?"/>
             <div className="postOptions">
-                <div className="option">
+                <div className="option" style={{color: "var(--photo)"}}>
                     <UilScenery/>
                     Photo
                 </div>
-                <div className="option">
+                <div className="option" style={{color: "var(--video)"}}>
                     <UilPlayCircle/>
                     Video
                 </div>
-                <div className="option">
+                <div className="option" style={{color: "var(--location)"}}>
                     <UilLocationPoint/>
                     Location
                 </div>
-                <div className="option">
+                <div className="option" style={{color: "var(--schedule)"}}>
                     <UilSchedule/>
                     Schedule
                 </div>
