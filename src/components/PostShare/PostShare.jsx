@@ -30,6 +30,9 @@ const PostShare = () => {
                     <UilSchedule/>
                     Schedule
                 </div>
+                <button className="button ps-button">
+                    Share
+                </button>
             </div>
         </div>
     </div>
