@@ -1,4 +1,5 @@
 import React from 'react'
+import TrendCard from '../TrendCard/TrendCard'
 import './RightSide.css'
 import Home from '../../img/home.png'
 import Noti from '../../img/noti.png'
@@ -14,6 +15,10 @@ const RightSide = () => {
             <img src={Noti} alt=""/>
             <img src={Comment} alt=""/>
         </div>
+
+        <TrendCard/>
+
+        <button className="button r-button">Share</button>
     </div>
   )
 }
