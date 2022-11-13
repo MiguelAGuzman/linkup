@@ -7,7 +7,9 @@ const InfoCard = () => {
     <div className="InfoCard">
         <div className="infoHead">
             <h4>Tour Info</h4>
-            <UilPen/>
+            <div>
+                <UilPen width='2rem' height='1.2rem'/>
+            </div>
         </div>
 
         <div className="info">
