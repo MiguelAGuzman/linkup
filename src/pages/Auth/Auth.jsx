@@ -63,6 +63,11 @@ function SignUp() {
                     name='confirmpass'
                     />
                 </div>
+
+                <div>
+                    <span>Already have an account? Login.</span>
+                </div>
+                <button className="button infoButton" type='submit'>Sign Up</button>
             </form>
         </div>
     )
