@@ -22,7 +22,7 @@ function SignUp() {
 
     return (
         <div className="a-right">
-            <form className="infoForm">
+            <form className="infoForm authForm">
                 <h3>Sign Up</h3>
 
                 <div>
@@ -65,7 +65,7 @@ function SignUp() {
                 </div>
 
                 <div>
-                    <span>Already have an account? Login.</span>
+                    <span style={{fontSize: '12px'}}>Already have an account? Login.</span>
                 </div>
                 <button className="button infoButton" type='submit'>Sign Up</button>
             </form>
