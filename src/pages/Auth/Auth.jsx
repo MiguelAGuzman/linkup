@@ -26,8 +26,42 @@ function SignUp() {
                 <h3>Sign Up</h3>
 
                 <div>
-                    <input type="text" placeholder='First Name'
-                    className='infoInput' name='firstname'/>
+                    <input 
+                    type="text" 
+                    placeholder='First Name'
+                    className='infoInput' 
+                    name='firstname'
+                    />
+                    <input 
+                    type="text" 
+                    placeholder='Last Name'
+                    className='infoInput' 
+                    name='lastname'
+                    />
+                </div>
+
+                <div>
+                    <input
+                    type="text"
+                    className="infoInput" 
+                    placeholder='Usernames'
+                    name='username'
+                    />
+                </div>
+
+                <div>
+                    <input 
+                    type="text" 
+                    className="infoInput" 
+                    placeholder='Password'
+                    name='password'
+                    />
+                    <input 
+                    type="text" 
+                    className="infoInput" 
+                    placeholder='Confirm Password'
+                    name='confirmpass'
+                    />
                 </div>
             </form>
         </div>
