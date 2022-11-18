@@ -8,7 +8,7 @@ const InfoCard = () => {
   return (
     <div className="InfoCard">
       <div className="infoHead">
-        <h4>Tour Info</h4>
+        <h4>Your Info</h4>
         <div>
           <UilPen
             width="2rem"
